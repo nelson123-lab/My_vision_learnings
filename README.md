@@ -26,3 +26,6 @@ There are many projects that use 3D image segmentation of data. Here are a few e
 5. Geology: 3D image segmentation is used in geology to identify and analyze geological features such as rock formations or mineral deposits. For example, it can be used to segment a 3D scan of a rock sample to identify different mineral components.
 
 Overall, 3D image segmentation is a versatile tool that can be used in a wide range of applications, from medical imaging to industrial inspection to augmented reality. It requires a combination of technical knowledge, problem-solving skills, and attention to detail to be successful.
+
+## Projects
+
