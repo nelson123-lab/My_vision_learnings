@@ -13,8 +13,11 @@ Human-in-the-loop methodologies are particularly useful in situations where the 
 Overall, human-in-the-loop methodologies are an important approach to machine learning that can help improve the accuracy and reliability of models, particularly in situations where the data is complex or the problem is ill-defined. They require a combination of technical knowledge, problem-solving skills, and effective communication to be successful.
 GPT-3.5
 
+## napari
+napari is a fast, interactive, multi-dimensional image viewer for Python. It's designed for browsing, annotating, and analyzing large multi-dimensional images.
 There are many projects that use 3D image segmentation of data. Here are a few examples:
 
+## Application of 3D Image segmentation
 1. Medical Imaging: 3D image segmentation is widely used in medical imaging to identify and isolate specific structures or organs within the body. For example, it can be used to segment the brain in MRI scans to identify tumors or other abnormalities.
 
 2. Robotics: 3D image segmentation is used in robotics to identify and track objects in 3D space. For example, it can be used to segment objects in a cluttered environment to help a robot navigate and avoid obstacles.
@@ -28,9 +31,31 @@ There are many projects that use 3D image segmentation of data. Here are a few e
 Overall, 3D image segmentation is a versatile tool that can be used in a wide range of applications, from medical imaging to industrial inspection to augmented reality. It requires a combination of technical knowledge, problem-solving skills, and attention to detail to be successful.
 
 ## Projects
-Project: Automated Segmentation of Brain Tumors in MRI Scans
+### Automated Segmentation of Brain Tumors in MRI Scans
+
 Objective: To develop an automated system for segmenting brain tumors in MRI scans using 3D image segmentation techniques.
+
 Methodology: The project involved training a machine learning model to segment brain tumors in MRI scans. The model was trained on a dataset of MRI scans with labeled tumor regions. The model used a combination of thresholding, region growing, and machine learning-based methods to segment the tumor regions in the MRI scans. The model was then tested on a separate dataset of MRI scans to evaluate its performance.
 Results: The automated system achieved a high level of accuracy in segmenting brain tumors in MRI scans. The system was able to accurately identify and isolate tumor regions in the MRI scans, which can be used for further analysis and treatment planning.
 
 Impact: The automated system can help improve the efficiency and accuracy of brain tumor diagnosis and treatment planning. It can also help reduce the workload of radiologists and other medical professionals by automating the segmentation process. Overall, the project demonstrates the potential of 3D image segmentation techniques in medical imaging and highlights the importance of collaboration between computer scientists and medical professionals.
+
+### Object Detection and Tracking for Autonomous Vehicles
+
+Objective: To develop an object detection and tracking system for autonomous vehicles using 3D image segmentation and human-in-the-loop methodologies.
+
+Methodology: The project involved training a machine learning model to detect and track objects in the environment, such as other vehicles, pedestrians, and obstacles. The model was trained on a dataset of 3D lidar scans with labeled object regions. The model used a combination of thresholding, region growing, and machine learning-based methods to segment the object regions in the lidar scans. The model was then tested on a separate dataset of lidar scans to evaluate its performance.
+To improve the accuracy of the segmentation, human-in-the-loop methodologies were used to provide feedback on the model's performance. Human experts reviewed the model's predictions and provided feedback on any errors or inaccuracies. This feedback was then used to retrain the model and improve its accuracy.
+Results: The object detection and tracking system achieved a high level of accuracy in detecting and tracking objects in the environment. The system was able to accurately identify and track other vehicles, pedestrians, and obstacles, which can be used for safe and efficient autonomous driving.
+
+Impact: The object detection and tracking system can help improve the safety and efficiency of autonomous driving. It can also help reduce the workload of autonomous vehicle operators by automating the object detection and tracking process. Overall, the project demonstrates the potential of 3D image segmentation and human-in-the-loop methodologies in autonomous driving and highlights the importance of collaboration between computer scientists and automotive engineers.
+
+### Lane Detection and Segmentation for Autonomous Vehicles
+
+Objective: To develop a lane detection and segmentation system for autonomous vehicles using 3D image segmentation and human-in-the-loop methodologies.
+
+Methodology: The project involved training a machine learning model to detect and segment lane markings in the environment. The model was trained on a dataset of 3D lidar scans and camera images with labeled lane markings. The model used a combination of thresholding, region growing, and machine learning-based methods to segment the lane markings in the lidar scans and camera images. The model was then tested on a separate dataset of lidar scans and camera images to evaluate its performance.
+To improve the accuracy of the segmentation, human-in-the-loop methodologies were used to provide feedback on the model's performance. Human experts reviewed the model's predictions and provided feedback on any errors or inaccuracies. This feedback was then used to retrain the model and improve its accuracy.
+Results: The lane detection and segmentation system achieved a high level of accuracy in detecting and segmenting lane markings in the environment. The system was able to accurately identify and segment lane markings in a variety of lighting and weather conditions, which can be used for safe and efficient autonomous driving.
+
+Impact: The lane detection and segmentation system can help improve the safety and efficiency of autonomous driving. It can also help reduce the workload of autonomous vehicle operators by automating the lane detection and segmentation process. Overall, the project demonstrates the potential of 3D image segmentation and human-in-the-loop methodologies in autonomous driving and highlights the importance of collaboration between computer scientists and automotive engineers.
