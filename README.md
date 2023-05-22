@@ -25,6 +25,11 @@ There are many projects that can be done using autoregressive models. Here are a
 5. Image and video processing: Autoregressive models can be used to predict the next frame in a video or the next pixel in an image, which can be useful for tasks such as video compression or image denoising. 
 [Image Compression using Auto Regressive model](https://github.com/nelson123-lab/My_vision_learnings/blob/c453f394abfcd28b1f29e5822172f29294a09f39/Image%20compression%20using%20autoregressive%20model.py)
 
+## Visual SLAM (Simultaneous Localization and Mapping)
+Visual SLAM is a technique used in robotics and computer vision to create a map of an unknown environment while simultaneously keeping track of the robot's location within that environment. It uses visual information from cameras mounted on the robot to estimate the robot's position and orientation, as well as the location of objects in the environment.
+Visual SLAM algorithms typically work by extracting features from the camera images, such as corners or edges, and then using these features to estimate the robot's motion and the location of objects in the environment. The algorithm then updates the map and the robot's position based on the new information.
+Visual SLAM has many applications, including autonomous navigation, augmented reality, and robotics. It is a challenging problem due to the complexity of real-world environments, the need for real-time performance, and the difficulty of accurately estimating the robot's motion and the location of objects in the environment.
+
 ## napari
 napari is a fast, interactive, multi-dimensional image viewer for Python. It's designed for browsing, annotating, and analyzing large multi-dimensional images.
 There are many projects that use 3D image segmentation of data. Here are a few examples:
