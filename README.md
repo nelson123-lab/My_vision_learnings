@@ -16,6 +16,14 @@ GPT-3.5
 Autoregressive models are a type of statistical model used in time series analysis. They are based on the idea that a time series can be predicted by using its own past values. In an autoregressive model, the value of a variable at a given time is modeled as a function of its past values. The order of the autoregressive model refers to the number of past values used to predict the current value. 
 -Autoregressive models are commonly used in finance, economics, and other fields to forecast future values of a time series. They are also used in natural language processing, where they are used to generate text by predicting the next word in a sequence based on the previous words.
 
+### Applications
+There are many projects that can be done using autoregressive models. Here are a few examples:
+1. Time series forecasting: Autoregressive models can be used to forecast future values of a time series, such as stock prices, weather patterns, or website traffic.
+2. Anomaly detection: Autoregressive models can be used to detect anomalies in time series data, such as sudden spikes or drops in stock prices or website traffic.
+3. Natural language processing: Autoregressive models can be used to generate text, such as predicting the next word in a sentence or generating a new sentence based on previous text.
+4. Speech recognition: Autoregressive models can be used to recognize speech, such as predicting the next word in a spoken sentence or transcribing speech to text.
+5. Image and video processing: Autoregressive models can be used to predict the next frame in a video or the next pixel in an image, which can be useful for tasks such as video compression or image denoising.
+
 ## napari
 napari is a fast, interactive, multi-dimensional image viewer for Python. It's designed for browsing, annotating, and analyzing large multi-dimensional images.
 There are many projects that use 3D image segmentation of data. Here are a few examples:
