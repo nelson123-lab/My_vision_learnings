@@ -22,7 +22,8 @@ There are many projects that can be done using autoregressive models. Here are a
 2. Anomaly detection: Autoregressive models can be used to detect anomalies in time series data, such as sudden spikes or drops in stock prices or website traffic.
 3. Natural language processing: Autoregressive models can be used to generate text, such as predicting the next word in a sentence or generating a new sentence based on previous text.
 4. Speech recognition: Autoregressive models can be used to recognize speech, such as predicting the next word in a spoken sentence or transcribing speech to text.
-5. Image and video processing: Autoregressive models can be used to predict the next frame in a video or the next pixel in an image, which can be useful for tasks such as video compression or image denoising.
+5. Image and video processing: Autoregressive models can be used to predict the next frame in a video or the next pixel in an image, which can be useful for tasks such as video compression or image denoising. 
+[Image Compression using Auto Regressive model](https://github.com/nelson123-lab/My_vision_learnings/blob/c453f394abfcd28b1f29e5822172f29294a09f39/Image%20compression%20using%20autoregressive%20model.py)
 
 ## napari
 napari is a fast, interactive, multi-dimensional image viewer for Python. It's designed for browsing, annotating, and analyzing large multi-dimensional images.
