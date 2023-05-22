@@ -12,6 +12,9 @@ In human-in-the-loop methodologies, the machine learning model is initially trai
 Human-in-the-loop methodologies are particularly useful in situations where the data is complex or the problem is ill-defined. They can also be used to improve the interpretability of machine learning models, as humans can provide insights into the reasoning behind the model's predictions.
 Overall, human-in-the-loop methodologies are an important approach to machine learning that can help improve the accuracy and reliability of models, particularly in situations where the data is complex or the problem is ill-defined. They require a combination of technical knowledge, problem-solving skills, and effective communication to be successful.
 GPT-3.5
+## Autoregressive Models
+Autoregressive models are a type of statistical model used in time series analysis. They are based on the idea that a time series can be predicted by using its own past values. In an autoregressive model, the value of a variable at a given time is modeled as a function of its past values. The order of the autoregressive model refers to the number of past values used to predict the current value. 
+-Autoregressive models are commonly used in finance, economics, and other fields to forecast future values of a time series. They are also used in natural language processing, where they are used to generate text by predicting the next word in a sequence based on the previous words.
 
 ## napari
 napari is a fast, interactive, multi-dimensional image viewer for Python. It's designed for browsing, annotating, and analyzing large multi-dimensional images.
