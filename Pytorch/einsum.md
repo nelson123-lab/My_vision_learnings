@@ -5,3 +5,12 @@
   input tensors that should be multiplied or summed, and the resulting indices of the output tensor.
 
 - For example, suppose we have two matrices A and B of shape (3, 4) and (4, 5), respectively. We can use einsum to perform matrix multiplication as follows:
+
+```python
+import numpy as np
+
+A = np.random.rand(3, 4)
+B = np.random.rand(4, 5)
+
+C = np.einsum('ij,jk->ik', A, B)
+```
