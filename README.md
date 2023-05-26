@@ -76,3 +76,7 @@ To improve the accuracy of the segmentation, human-in-the-loop methodologies wer
 Results: The lane detection and segmentation system achieved a high level of accuracy in detecting and segmenting lane markings in the environment. The system was able to accurately identify and segment lane markings in a variety of lighting and weather conditions, which can be used for safe and efficient autonomous driving.
 
 Impact: The lane detection and segmentation system can help improve the safety and efficiency of autonomous driving. It can also help reduce the workload of autonomous vehicle operators by automating the lane detection and segmentation process. Overall, the project demonstrates the potential of 3D image segmentation and human-in-the-loop methodologies in autonomous driving and highlights the importance of collaboration between computer scientists and automotive engineers.
+
+References
+Tensorflow Documentation
+Pytorch Documentation
