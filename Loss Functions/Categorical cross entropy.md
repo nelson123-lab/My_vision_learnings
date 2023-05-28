@@ -1,1 +1,5 @@
 -  This is a loss function used for multi-class classification problems. It measures the difference between the predicted and actual class probabilities.
+-  It is used to measure the difference between the predicted and actual class labels of an image when there are more than two classes.
+-  In computer vision, categorical cross-entropy is often used in tasks such as image classification, where the goal is to classify an image into one of several        categories, such as "cat", "dog", or "bird". Categorical cross-entropy is used to calculate the loss during training of deep learning models that are used for        these tasks.
+-  Categorical cross-entropy is also used in tasks that involve object detection and image segmentation, where the goal is to classify each pixel or object in an        image into one of several categories.
+-  Overall, categorical cross-entropy is a versatile loss function that is widely used in computer vision tasks that involve multi-class classification.
