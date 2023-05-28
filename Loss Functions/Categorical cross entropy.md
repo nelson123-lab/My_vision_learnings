@@ -1,0 +1,1 @@
+-  This is a loss function used for multi-class classification problems. It measures the difference between the predicted and actual class probabilities.
