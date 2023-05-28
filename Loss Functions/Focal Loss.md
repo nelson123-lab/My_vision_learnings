@@ -1,3 +1,6 @@
 - This is a loss function used for imbalanced classification problems. It gives more weight to hard-to-classify examples, which can improve the model's 
   performance on the minority class.
 - It is used to address the problem of class imbalance by assigning higher weights to misclassified examples that are hard to classify.
+- In computer vision, focal loss is often used in tasks such as object detection and image classification, where the dataset may have a large number of examples from   one class and a small number of examples from another class. Focal loss is used to calculate the loss during training of deep learning models that are used for       these tasks.
+- Focal loss is particularly useful in cases where the dataset has a large number of easy examples and a small number of hard examples. By assigning higher weights     to the hard examples, focal loss helps the model to focus on learning from the difficult examples and improve its performance on the minority class.
+- Overall, focal loss is a versatile loss function that is widely used in computer vision tasks that involve imbalanced datasets, particularly in cases where the       dataset has a large number of easy examples and a small number of hard examples.
