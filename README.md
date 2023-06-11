@@ -34,6 +34,11 @@ Visual SLAM has many applications, including autonomous navigation, augmented re
 napari is a fast, interactive, multi-dimensional image viewer for Python. It's designed for browsing, annotating, and analyzing large multi-dimensional images.
 There are many projects that use 3D image segmentation of data. Here are a few examples:
 
+HOSNeRF
+
+- An AI Model That Can Generate Dynamic Neural Radiance Fields from a Single Video
+
+
 ## Application of 3D Image segmentation
 1. Medical Imaging: 3D image segmentation is widely used in medical imaging to identify and isolate specific structures or organs within the body. For example, it can be used to segment the brain in MRI scans to identify tumors or other abnormalities.
 
