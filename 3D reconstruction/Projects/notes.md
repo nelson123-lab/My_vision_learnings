@@ -19,13 +19,16 @@ The goal of this project is to create a 3D model of an indoor environment using 
 
 7. Visualization: Render the 3D model for viewing, either on a 2D screen or in a virtual reality environment.
 
-8. Tools and Libraries:
+## Tools and Libraries:
+
 Depth Sensing Camera: Microsoft Kinect, Intel RealSense
 
-9. Programming Language: Python, C++
+## Programming Language: Python, C++
+
 Libraries: OpenCV, PCL (Point Cloud Library), Open3D, MeshLab
 
-10. Challenges:
+## Challenges:
+
 Handling noise and inaccuracies in the depth data.
 Efficiently aligning and merging point clouds from different viewpoints.
 Creating a smooth and realistic 3D model from the point clouds.
