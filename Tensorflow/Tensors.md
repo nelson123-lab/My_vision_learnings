@@ -16,4 +16,8 @@ floating_number = tf.Variable(2343.454, tf.float32)
 
 data = tf.Variable([[42,785657], [342,787]], tf.int32)
 print(data.shape)
+"""
+Output
+(2, 2)
+"""
 ```
