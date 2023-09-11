@@ -31,7 +31,25 @@ Working:-
 
 
 ### Normalization
-- In transformer, we use a layer normalization not a batch normalization.
+Normalization in transformers, specifically in the context of deep learning, is an essential technique used to stabilize and accelerate the training of neural networks, including transformer models. There are two main types of normalization used in transformers: Layer Normalization and Batch Normalization.
+
+1. **Layer Normalization (LN):** This type of normalization is typically applied independently to each layer in the transformer architecture, which includes the multi-head self-attention layers and feedforward neural network layers. Here's why we use Layer Normalization in transformers:
+
+   - **Stability in Training:** Layer Normalization helps in stabilizing the activations within each layer during training. It addresses the problem of internal covariate shift, which occurs when the distribution of activations in a layer changes as training progresses. By normalizing the inputs to each layer, the network becomes less sensitive to the scale of inputs, which can make training more stable.
+
+   - **Improved Gradient Flow:** Normalization techniques like Layer Normalization make it easier for gradients to flow through the network during backpropagation. This can lead to faster convergence during training.
+
+   - **Regularization Effect:** Layer Normalization can also act as a form of regularization, helping prevent overfitting to some extent.
+
+2. **Batch Normalization (BN):** While Layer Normalization is applied within each layer, Batch Normalization operates on mini-batches of data at each layer. It computes the mean and standard deviation of activations within a batch and then normalizes the activations based on these statistics. Batch Normalization is often used in convolutional neural networks (CNNs) but is less common in transformers. However, it can be used in combination with Layer Normalization for certain purposes.
+
+   - **Accelerated Training:** Batch Normalization can significantly accelerate training by reducing the internal covariate shift within each layer. It helps ensure that activations maintain a similar scale throughout training, allowing for the use of higher learning rates and faster convergence.
+
+   - **Regularization:** Similar to Layer Normalization, Batch Normalization also provides a certain level of regularization, which can help prevent overfitting.
+
+In transformers, Layer Normalization is more commonly used because it fits the architecture's sequential nature, where each layer has its own normalization step. However, some variations and improvements to transformer architectures might incorporate Batch Normalization or other normalization techniques for specific tasks or architectures.
+
+In summary, normalization techniques like Layer Normalization and Batch Normalization are crucial in transformers to stabilize training, accelerate convergence, and facilitate gradient flow, ultimately leading to better model performance.
 
 ### Linear Head
 - This is used to avoid overfitting in some how
