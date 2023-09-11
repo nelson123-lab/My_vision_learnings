@@ -53,6 +53,23 @@ In summary, normalization techniques like Layer Normalization and Batch Normaliz
 
 ### Linear Head
 - This is used to avoid overfitting in some how
+- In the context of transformers, a "linear head" typically refers to the output layer of the transformer model, which is often a linear transformation applied to the final hidden states of the model. This linear transformation is responsible for producing the model's predictions or outputs for a particular task. It's also sometimes called the "classification head" or "output head."
+
+Here's how it works:
+
+1. **Transformer Encoder:** The main part of a transformer model consists of an encoder, which takes in an input sequence and processes it through multiple layers of self-attention and feedforward neural networks. This results in a set of hidden states, one for each token in the input sequence.
+
+2. **Linear Head:** After the input has been processed by the encoder, the final hidden states (or a specific layer's hidden states, depending on the architecture) are used as input to the linear head. The linear head is essentially a linear transformation, often followed by an activation function, that maps the high-dimensional hidden states into the desired output space for the specific task the transformer is being used for.
+
+   - **For Classification:** In tasks like text classification or sentiment analysis, the linear head might consist of a linear layer followed by a softmax activation function to produce class probabilities.
+
+   - **For Sequence-to-Sequence Tasks:** In tasks like machine translation or text generation, the linear head may involve a linear layer followed by a softmax or a linear layer followed by a sequence-to-sequence model.
+
+   - **For Regression:** In regression tasks, the linear head may consist of a single linear layer to produce a continuous-valued output.
+
+The linear head essentially learns the task-specific mapping from the learned representations in the transformer's hidden states to the output format required for the particular problem at hand. It's a crucial component of the transformer architecture, as it allows the model to adapt its learned features to different tasks without changing the encoder's architecture.
+
+In summary, the linear head in transformers is the part of the model responsible for transforming the encoder's hidden states into the final output format for a given task, whether that's classification, regression, or another sequence-based task. It is often implemented as a linear layer followed by appropriate activation functions, depending on the specific task's requirements.
 
 ## Residuals
 - They are mainly to improve the flow of information. ( To avoid vanishing gradient descent - training signals are getting lost during backpropagation )
