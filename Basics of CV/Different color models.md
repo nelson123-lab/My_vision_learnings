@@ -22,3 +22,7 @@ It is a color model that represents colors based on their perceived attributes o
 4. Color-based image analysis: HSV can be utilized in various image analysis tasks, such as color-based image retrieval, color-based image classification, or color-based feature extraction. By leveraging the hue and saturation components, it becomes possible to extract meaningful color information for further analysis.
 
 Overall, HSV provides a more intuitive and perceptually meaningful representation of colors, making it valuable in tasks where color manipulation, segmentation, object detection, or image analysis are involved.
+
+NOTE:
+- The default color space in OpenCV is BGR (Blue-Green-Red).
+- In Matplotlib, the default color space is RGB (Red-Green-Blue).
